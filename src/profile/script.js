@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('home-btn').addEventListener('click', function() {
-    window.location.href = '../accueil/index.html';
+    window.location.href = '../../index.html';
     });
     // ===== GESTION DU THÈME =====
     const themeBtn = document.getElementById('theme-btn');
