@@ -1,0 +1,6 @@
+Titre: Python 3.11 Performance Boost
+Catégorie: Développement
+Date: 2 Mai 2023
+nom article : article1
+Résumé: Analyse des optimisations cachées de Python 3.11 et comment en tirer profit dans votre code. Benchmarks comparatifs avec les versions précédentes.
+Image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80

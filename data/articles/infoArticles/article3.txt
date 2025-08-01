@@ -1,0 +1,6 @@
+Titre: Sécurité des Applications Web
+Catégorie: Cybersécurité
+Date: 18 Mai 2023
+nom article : article1
+Résumé: Protéger vos applications contre les vulnérabilités courantes (XSS, CSRF, injections SQL). Guide des bonnes pratiques avec démonstrations en Node.js et Python.
+Image: https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80

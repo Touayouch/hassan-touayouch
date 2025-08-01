@@ -1,0 +1,25 @@
+titre: DFIR Toolkit  
+image: https://images.unsplash.com/photo-1563986768609-322da13575f3  
+catégorie: forensic  
+description: Boîte à outils complète pour investigations numériques sur systèmes Windows/Linux  
+technologies: Volatility, Autopsy, YARA  
+code: projet2  
+badge: Top Tool  
+
+---  
+détails:  
+Environnement Docker préconfiguré pour l'analyse forensic avec automatisation des workflows d'investigation.
+
+fonctionnalités:  
+- Extraction de la mémoire RAM (temps moyen: 4.2s/GB)  
+- Détection de rootkits par analyse comportementale  
+- Reconstruction de timeline avec Plaso  
+- Détection IOCs via règles YARA custom  
+- Intégration MISP pour partage de menaces  
+
+défis:  
+Problème: Formats propriétaires  
+Solution: Développement de parsers pour formats OEM  
+
+Problème: Données chiffrées  
+Solution: Bootkit pour extraction des clés mémoire  

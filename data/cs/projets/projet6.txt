@@ -1,0 +1,25 @@
+titre: IoTSec Pro  
+image: https://images.unsplash.com/photo-1517430816045-df4b7de11d1d  
+catégorie: pentest  
+description: Framework d'audit pour appareils IoT et systèmes embarqués  
+technologies: Firmadyne, AFL, Radare2  
+code: projet6  
+badge: Nouveau  
+
+---  
+détails:  
+Suite complète pour le reverse engineering et l'audit de sécurité des firmwares IoT.
+
+fonctionnalités:  
+- Extraction de firmware (UART/JTAG/SPI)  
+- Fuzzing des interfaces radio (Zigbee/BLE)  
+- Détection des backdoors matérielles  
+- Analyse des binaires bare-metal  
+- Support +200 architectures embarquées  
+
+défis:  
+Problème: Firmwares chiffrés  
+Solution: Glitching voltage pour extraction des clés  
+
+Problème: Documentation absente  
+Solution: Rétro-ingénierie via symbolic execution  

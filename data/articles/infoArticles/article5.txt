@@ -1,0 +1,6 @@
+Titre: Sécurisation des APIs REST
+Catégorie: Cybersécurité
+Date: 20 Février 2023
+nom article : article1
+Résumé: Bonnes pratiques pour protéger vos APIs contre les attaques courantes. Implémentation de JWT, OAuth2 et rate limiting.
+Image: https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80

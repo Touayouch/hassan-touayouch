@@ -1,0 +1,28 @@
+titre: CodeSynth V2
+image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31
+catégorie: NLP
+description: Génération de code sécurisé par LLM avec analyse syntaxique
+technologies: StarCoder2, Tree-of-Thought
+code: projet3
+badge: 
+
+---
+détails:
+Pipeline avancé de génération de code avec vérification de sécurité intégrée.
+
+fonctionnalités:
+- Modèle Codex 7B fine-tuné
+- Analyse syntaxique (AST)
+- Détection de vulnérabilités (SAST)
+- Taux de compilation: 92%
+- Support pour 18 langages
+
+défis:
+Problème d'hallucinations de code
+Solution: Intégration RAG sur la codebase
+
+Problème de licence des générations
+Solution: Méthodologie Clean Room
+
+Problème de complexité des sorties
+Solution: Chain-of-Verification

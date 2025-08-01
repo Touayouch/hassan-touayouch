@@ -1,0 +1,31 @@
+titre: RoboThink 9
+image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485
+catégorie: Robotique
+description: Planification de mouvement neuro-symbolique
+technologies: GNN + SAT Solver
+code: projet5
+badge:
+
+---
+détails:
+Système hybride combinant perception, raisonnement et contrôle intelligent.
+
+fonctionnalités:
+
+3 modules spécialisés (Perception, Raisonnement, Contrôle)
+
+Benchmarks performants (98% succès, 12x RRT*)
+
+Compatibilité multi-plateforme ROS2
+
+Intégration matérielle optimisée
+
+défis:
+Problème d'incertitude
+Solution: Bayesian NN
+
+Problème de temps réel
+Solution: TensorRT
+
+Problème de safety
+Solution: Formal Verification

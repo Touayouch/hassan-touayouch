@@ -1,0 +1,6 @@
+Titre: Feature Engineering Avancé
+Catégorie: Machine Learning
+Date: 5 Mars 2023
+nom article : article1
+Résumé: Techniques créatives pour améliorer vos modèles de machine learning. Cas pratiques avec Scikit-learn et Pandas.
+Image: https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80

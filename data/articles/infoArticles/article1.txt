@@ -1,0 +1,6 @@
+Titre: Transformer Models Revolution
+Catégorie: IA
+Date: 15 Juin 2023
+nom article : article1
+Résumé: Comment les architectures Transformer ont redéfini le NLP et leur application dans vos projets. Exploration des modèles comme GPT et BERT.
+Image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80

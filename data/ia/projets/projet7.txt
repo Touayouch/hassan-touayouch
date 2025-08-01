@@ -1,0 +1,27 @@
+titre: MathXpert
+image: https://images.unsplash.com/photo-1635070041078-e363dbe005cb
+catégorie: Data
+description: Assistant de preuve mathématique formelle
+technologies: Lean4, GraphNN, Vampire
+code: projet7
+badge: 
+
+---
+détails:
+Système interactif d'aide à la formalisation mathématique.
+
+fonctionnalités:
+- Résolution de théorèmes undergrad
+- Auto-formalisation des énoncés
+- Feedback pas-à-pas
+- 85% réussite IMO Shortlist
+
+défis:
+Problème d'abstraction
+Solution: Curriculum Learning
+
+Problème de rigueur formelle
+Solution: Export vers Isabelle
+
+Problème d'expérience utilisateur
+Solution: Conversion NL ↔ Formel

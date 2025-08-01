@@ -1,0 +1,25 @@
+titre: WebSentry Pro  
+image: https://images.unsplash.com/photo-1550751827-4bd374c3f58b  
+catégorie: pentest  
+description: Suite complète d'audit de sécurité pour applications web avec cartographie des vulnérabilités  
+technologies: OWASP ZAP, Burp Suite, SQLMap  
+code: projet1  
+badge:  
+
+---  
+détails:  
+Plateforme automatisée détectant les vulnérabilités OWASP Top 10 et générant des rapports d'audit conformes aux standards PCI DSS.
+
+fonctionnalités:  
+- Détection automatique des injections SQL (précision: 99.2%)  
+- Scanner XSS avancé avec contournement de WAF  
+- Analyse des configurations CSP et CORS  
+- Génération de preuves d'exploit  
+- Intégration CI/CD (GitLab/GitHub Actions)  
+
+défis:  
+Problème: Faux positifs élevés  
+Solution: Mise en place d'un moteur de validation heuristique  
+
+Problème: Scan trop intrusif  
+Solution: Mode "Stealth" avec throttling adaptatif  

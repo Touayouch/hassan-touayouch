@@ -1,0 +1,27 @@
+titre: GaiaNet
+image: https://images.unsplash.com/photo-1462331940025-496dfbfc7564
+catégorie: Data
+description: Modélisation climatique multi-échelle
+technologies: GraphCast, FNO, ZFP
+code: projet8
+badge: 
+
+---
+détails:
+Réseau de prédiction climatique à haute résolution spatio-temporelle.
+
+fonctionnalités:
+- Résolution globale 25km
+- Zoom local 1km
+- Actualisation toutes les 15min
+- Intégration ERA5 + CMIP6
+
+défis:
+Problème d'incertitude des prédictions
+Solution: Ensemble ML
+
+Problème d'échelle computationnelle
+Solution: Parallelisme 4D
+
+Problème de validation
+Solution: Digital Twin

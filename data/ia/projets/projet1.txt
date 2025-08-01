@@ -1,0 +1,27 @@
+titre: NeuralMed Scan
+image: https://images.unsplash.com/photo-1579684385127-1ef15d508118
+catégorie: Data
+description: Plateforme de diagnostic médical intégrant segmentation 3D de tumeurs et génération automatique de rapports
+technologies: PyTorch, MONAI, ONNX
+code: projet1
+badge: 
+
+---
+détails:
+Solution complète d'aide au diagnostic radiologique combinant imagerie médicale 3D et analyse automatique avec explications interprétables.
+
+fonctionnalités:
+- Segmentation des tumeurs (Dice Score: 0.98)
+- Classification des lésions (F1-Score: 0.95)
+- Génération de rapports en langage naturel
+- Interface clinique certifiée CE
+
+défis:
+Problème de biais ethnique dans les données
+Solution: Échantillonnage stratifié multicentrique
+
+Problème de confidentialité des données patients
+Solution: Apprentissage fédéré avec chiffrement AES-256
+
+Problème de latence en production
+Solution: Distillation de connaissances (modèle léger)

@@ -1,0 +1,25 @@
+titre: CineMatch  
+image: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba  
+catégorie: Data_Science  
+description: Algorithme de recommandation basé sur le contenu et les préférences utilisateurs  
+technologies: Python, Pandas, TF-IDF, Neo4j  
+code: projet3  
+badge:  
+
+---  
+détails:  
+Application combinant analyse des métadonnées et graphe des relations entre films/séries.
+
+fonctionnalités:  
+- Import automatique depuis TMDB API  
+- Clustering des utilisateurs  
+- Détection des "diamants bruts" méconnus  
+- Interface web interactive (Dash)  
+- Exports personnalisables (CSV/JSON)  
+
+défis:  
+Problème: Cold start pour nouveaux utilisateurs  
+Solution: Système hybride contenu/collaboratif  
+
+Problème: Biais des notes populaires  
+Solution: Normalisation bayésienne  

@@ -1,0 +1,27 @@
+titre: OmniLang AI
+image: https://images.unsplash.com/photo-1509316785289-025f5b846b35
+catégorie: NLP
+description: Traduction neuronale zero-shot pour 157 langues
+technologies: Mixture-of-Experts, FlashAttention-3
+code: projet4
+badge: 
+
+---
+détails:
+Architecture de traduction à large spectre avec routing dynamique.
+
+fonctionnalités:
+- 128 experts spécialisés (8 actifs par requête)
+- Dataset OPUS 100+ (4.3B phrases)
+- Optimisation matérielle TPU v4
+- Précision comparable aux traducteurs humains
+
+défis:
+Problème des langues peu dotées
+Solution: Back-Translation améliorée
+
+Problème de biais culturels
+Solution: Anthropic Red Teaming
+
+Problème de coût computationnel
+Solution: Architecture MoE + Pruning

@@ -1,0 +1,25 @@
+titre: MalAnalyzer X  
+image: https://images.unsplash.com/photo-1563206767-5b18f218e8de  
+catégorie: forensic  
+description: Environnement d'analyse dynamique de malware avec détection EDR bypass  
+technologies: Cuckoo Sandbox, CAPE, YARA  
+code: projet5  
+badge:  
+
+---  
+détails:  
+Plateforme d'analyse de malware avancée avec détection des techniques d'évasion courantes.
+
+fonctionnalités:  
+- Détection des sandbox-aware malwares  
+- Analyse du trafic réseau chiffré (MITM SSL)  
+- Dump mémoire automatisé  
+- Génération de règles YARA optimisées  
+- Détection des techniques Living-off-the-Land  
+
+défis:  
+Problème: Évitement de l'analyse  
+Solution: Environnement bare-metal avec virtualisation nested  
+
+Problème: Malwares polymorphes  
+Solution: Clustering via embedding comportemental  

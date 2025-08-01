@@ -1,0 +1,27 @@
+titre: VoiceForge
+image: https://images.unsplash.com/photo-1571330735066-03aaa9429d89
+catégorie: NLP
+description: Synthèse vocale émotionnelle ultra-low latency
+technologies: VITS2, Diffusion, WaveGAN
+code: projet6
+badge: 
+
+---
+détails:
+Pipeline de synthèse vocale avec transfert de style en temps réel.
+
+fonctionnalités:
+- Latence 20ms
+- 128 dimensions émotionnelles
+- Clonage vocal en 30 secondes
+- Intégration WebRTC
+
+défis:
+Problème éthique de deepfake
+Solution: Watermarking audio
+
+Problème de robustesse au bruit
+Solution: SpecAugment++
+
+Problème d'efficacité
+Solution: Fine-Tuning LoRA

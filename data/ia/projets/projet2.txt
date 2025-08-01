@@ -1,0 +1,29 @@
+titre: DeepTrade X
+image: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3
+catégorie: Vision
+description: Plateforme de trading algorithmique multi-agent avec gestion intelligente du risque
+technologies: RLHF, LSTM, Attention
+code: projet2
+badge: 
+
+---
+détails:
+Système avancé de trading algorithmique utilisant une approche multi-agent pour une optimisation complète des stratégies de marché.
+
+fonctionnalités:
+- Market Maker (algorithme TD3)
+- Module d'arbitrage (PPO)
+- Gestionnaire de risque intelligent (SAC)
+- Performance: Sharpe Ratio > 3.5
+- Stabilité: Drawdown < 12%
+- Rapidité: Latence 17µs
+
+défis:
+Problème d'overfitting des modèles
+Solution: Validation Walk-Forward avec recalage dynamique
+
+Problème de changement de régime de marché
+Solution: Mécanisme d'Online Learning adaptatif
+
+Problème de vulnérabilité aux attaques
+Solution: Intégration d'Adversarial RL

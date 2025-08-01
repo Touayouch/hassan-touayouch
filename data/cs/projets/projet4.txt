@@ -1,0 +1,25 @@
+titre: NetSentinel NG  
+image: https://images.unsplash.com/photo-1620641788421-7a1c342ea42e  
+catégorie: reseau  
+description: IDS/IPS nouvelle génération avec détection zero-day par ML  
+technologies: Suricata, TensorFlow, ELK  
+code: projet4  
+badge:  
+
+---  
+détails:  
+Système de détection d'anomalies réseau utilisant du Deep Learning pour identifier les attaques inconnues.
+
+fonctionnalités:  
+- Détection en temps réel (<2ms de latence)  
+- Réduction des faux positifs de 63%  
+- Cartographie des menaces en temps réel  
+- Intégration avec Palo Alto/Cisco FirePower  
+- Détection des C2 cachés via analyse TLS  
+
+défis:  
+Problème: Évitement par fragmentation  
+Solution: Reassembly stateful avec analyse heuristique  
+
+Problème: Charge CPU élevée  
+Solution: Optimisation via FPGA (Xilinx Alveo)  

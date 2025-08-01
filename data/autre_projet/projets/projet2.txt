@@ -1,0 +1,25 @@
+titre: PixelEngine  
+image: https://images.unsplash.com/photo-1542751371-adc38448a05e  
+catégorie: Developpement_Logiciel  
+description: Moteur de jeu léger avec support physique et animations sprite-based  
+technologies: C++, OpenGL, Box2D, Lua  
+code: projet2  
+badge:  
+
+---  
+détails:  
+Moteur spécialisé pour les jeux retro 2D avec pipeline de rendu optimisé.
+
+fonctionnalités:  
+- Système ECS (Entity-Component-System)  
+- Éditeur de niveaux intégré  
+- Support des shaders GLSL  
+- Binding Lua pour le game logic  
+- Export WebAssembly (60 FPS stable)  
+
+défis:  
+Problème: Garbage collection Lua  
+Solution: Pool d'objets avec allocation préalable  
+
+Problème: Synchronisation audio/video  
+Solution: Boucle de jeu à temps fixe  

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Portfolio professionnel de Hassan Touayouch - Développeur et expert en technologies numériques">
+    <meta name="keywords" content="portfolio, développeur, intelligence artificielle, cybersécurité, Hassan Touayouch">
+    <meta name="author" content="Hassan Touayouch">
+    <title>Portfolio - Hassan Touayouch | Développeur & Expert Technologie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading" id="loading">
+        <div class="loading-circle"></div>
+    </div>
+
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <img src="profile.png" alt="Profil Logo" class="profile-logo">
+                <h1>Hassan Touayouch</h1>
+            </a>
+            <button class="hamburger" aria-label="Menu" aria-expanded="false" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks" data-visible="false">
+                <li><a href="#home" onclick="closeMenu()">Accueil</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projets</a></li>
+                <li><a href="#about" onclick="closeMenu()">À propos</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero__content">
+            <div class="hero__text">
+                <h1 class="hero__title animate__animated animate__fadeInUp">
+                    <span class="hero__greeting">Bonjour, je suis</span>
+                    <span class="hero__name">Hassan Touayouch</span>
+                </h1>
+                
+                <div class="hero__typing animate__animated animate__fadeInUp animate__delay-1s">
+                    <span class="hero__subtitle"></span>
+                    <span class="hero__cursor">|</span>
+                </div>
+                
+                <p class="hero__description animate__animated animate__fadeInUp animate__delay-2s">
+                    Etudiant ingénieur passionné par IA et cybersécurité.
+                </p>
+                
+                <div class="hero__buttons animate__animated animate__fadeInUp animate__delay-3s">
+                    <a href="../profile/index.html" class="hero__button">
+                        <span>Voir mon profil</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#projects" class="hero__scroll-down" aria-label="Défiler vers la section projets">
+            <span class="hero__scroll-wheel"></span>
+        </a>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title reveal">MES PROJETS</h2>
+            <div class="projects__grid">
+                <a href="../iA/index.html" class="project-card reveal">
+                    <div class="project-card__icon">
+                        <i class="fas fa-brain" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="project-card__title">Intelligence Artificielle</h3>
+                    <p class="project-card__text">Recherches et développement en intelligence artificielle</p>
+                    <span class="sr-only">En savoir plus sur les projets d'Intelligence Artificielle</span>
+                </a>
+                <a href="../CS/index.html" class="project-card reveal">
+                    <div class="project-card__icon">
+                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="project-card__title">CyberSecurité</h3>
+                    <p class="project-card__text">Solutions de sécurité informatique et protection des données</p>
+                    <span class="sr-only">En savoir plus sur les projets de Cyber Sécurité</span>
+                </a>
+                <a href="../autres/index.html" class="project-card reveal">
+                    <div class="project-card__icon">
+                        <i class="fas fa-project-diagram" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="project-card__title">Autre projets</h3>
+                    <p class="project-card__text">Projets variés en développement web et mobile</p>
+                    <span class="sr-only">En savoir plus sur les autres projets</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title reveal">À propos</h2>
+            <p class="about__text reveal">
+                J'ai créé ce site web dans le but de partager mon profil, mes expériences professionnelles et mes avis. Il reflète mon parcours, mes passions, et les projets auxquels je me consacre. Mon objectif est d'offrir un aperçu de mon univers et d'établir des connexions intéressantes.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title reveal"><i class="fas fa-envelope" aria-hidden="true"></i> Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info reveal">
+                    <p>Vous avez un projet, une question ou simplement envie de discuter ? N'hésitez pas à me contacter !</p>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:hassantoua19@gmail.com">hassantouayouch@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <a href="tel:+33780760020">+33 1 23 44 55 66 </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <span>Normandie, France</span>
+                        </li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form reveal">
+                    <form action="#" method="post" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder=" " required>
+                            <label for="name">Votre nom</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder=" " required>
+                            <label for="email">Votre email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder=" " required></textarea>
+                            <label for="message">Votre message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="reveal">
+        <p>&copy; <span id="current-year">2025</span> Hassan Touayouch. Tous droits réservés.</p>
+        <a href="#home" class="back-to-top" aria-label="Retour en haut de page">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

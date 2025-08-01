@@ -1,0 +1,25 @@
+titre: QuantumShield  
+image: https://images.unsplash.com/photo-1635070041078-e363dbe005cb  
+catégorie: cryptographie  
+description: Implémentation d'algorithmes résistants aux attaques quantiques  
+technologies: NIST PQC, Lattice-based, Go  
+code: projet3  
+badge:  
+
+---  
+détails:  
+Bibliothèque cryptographique offrant des alternatives sécurisées à RSA/ECC pour l'ère quantique.
+
+fonctionnalités:  
+- Implémentation Kyber (CRYSTALS-Kyber)  
+- Benchmarks comparatifs (x3.2 plus lent que RSA-2048)  
+- Bindings Python/Java  
+- Certifié FIPS 140-2 Level 3  
+- Résistant aux attaques Shor/Grover  
+
+défis:  
+Problème: Taille des clés  
+Solution: Compression via schéma NTRU Prime  
+
+Problème: Compatibilité legacy  
+Solution: Mode hybride RSA+Kyber  

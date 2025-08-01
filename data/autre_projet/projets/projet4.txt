@@ -1,0 +1,25 @@
+titre: AstroView  
+image: https://images.unsplash.com/photo-1462331940025-496dfbfc7564  
+catégorie: Data_Science  
+description: Exploration interactive des catalogues stellaires avec rendu 3D WebGL  
+technologies: Three.js, D3.js, NASA API, WebAssembly  
+code: projet4  
+badge:   
+
+---  
+détails:  
+Visualiseur astronomique client-side avec traitement des grands jeux de données.
+
+fonctionnalités:  
+- Chargement progressif des catalogues (GAIA DR3)  
+- Filtres dynamiques (magnitude, type spectral)  
+- Simulation de systèmes planétaires  
+- Export VR (WebXR)  
+- Mode éducatif avec annotations  
+
+défis:  
+Problème: Performance avec 1M+ étoiles  
+Solution: Octree et Level-of-Detail  
+
+Problème: Précision des calculs  
+Solution: Calculs en double précision via WASM  
