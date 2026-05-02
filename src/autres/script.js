@@ -1,5 +1,5 @@
 // Configuration
-const PROJECTS_DIR = '../../data/autre_projet/projets/'
+const PROJECTS_DIR = '../../data/autre_projet/projets/';
 const CODES_DIR = '../../data/autre_projet/codes/';
 const FILE_PREFIX = 'projet';
 const FILE_SUFFIX = '.txt';
