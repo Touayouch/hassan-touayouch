@@ -7,7 +7,7 @@ const MAX_PROJECTS = 50;
 
 // ================= INITIALISATION =================
 window.addEventListener('DOMContentLoaded', () => {
-    initPortfolio
+    initPortfolio();
 });
 
 async function initPortfolio() {
