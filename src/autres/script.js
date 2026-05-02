@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 async function initPortfolio() {
     // Initial setup
-    document.getElementById('current-year').textContent = new Date().getFullYear();
+    document.getElementById('current-year').textContent = new Date().getFullYear()
     
     try {
         await loadProjects();
