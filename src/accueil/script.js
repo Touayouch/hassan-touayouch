@@ -4,7 +4,7 @@ window.addEventListener('load', function() {
         loading.style.opacity = '0';
         setTimeout(() => {
             loading.style.display = 'none';
-        }, 200);
+        }, 300);
     }, 700);
 });
 
