@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+window.addEventListener('load', function() 
     const loading = document.getElementById('loading');
     setTimeout(() => {
         loading.style.opacity = '0';
