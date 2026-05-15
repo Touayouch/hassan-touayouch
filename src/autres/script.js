@@ -9,6 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
     initPortfolio();
 });
 
+// 
 async function initPortfolio() {
     // Initial setup
     document.getElementById('current-year').textContent = new Date().getFullYear();
