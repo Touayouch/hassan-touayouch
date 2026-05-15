@@ -3,7 +3,7 @@ const PROJECTS_DIR = '../../data/autre_projet/projets/';
 const CODES_DIR = '../../data/autre_projet/codes/';
 const FILE_PREFIX = 'projet';
 const FILE_SUFFIX = '.txt';
-const MAX_PROJECTS = 5;
+const MAX_PROJECTS = 50;
 
 // ================= INITIALISATION =================
 window.addEventListener('DOMContentLoaded', () => {
