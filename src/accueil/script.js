@@ -5,7 +5,7 @@ window.addEventListener('load', function() {
         setTimeout(() => {
             loading.style.display = 'none';
         }, 400);
-    }, 600);
+    }, 700);
 });
 
 function toggleMenu() {
